@@ -6,11 +6,8 @@ body {
   font-style: normal;
   font-variation-settings:"wdth" 100%;
   background-color: #DCDCDC;
-  max-width: 100%;
-  overflow: hidden;
-    margin-bottom: 20px;
-
 }
+
 
 .name {
     margin: 10px;
@@ -240,7 +237,9 @@ img {
 
         }
 
-
+    .info-text {
+        padding: 3%;
+    }
 }
  @media (max-width: 650px) {
     .form-row {
