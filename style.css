@@ -12,10 +12,6 @@ body {
 
 }
 
-p, h1, h2, h3, li {
-    word-break: break-all;
-}
-
 .name {
     margin: 10px;
 }
@@ -244,9 +240,7 @@ img {
 
         }
 
-    .info-text {
-        padding: 3%;
-    }
+
 }
  @media (max-width: 650px) {
     .form-row {
