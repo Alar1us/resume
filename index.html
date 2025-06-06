@@ -6,70 +6,93 @@
     <meta name="description" content="Сайт на котором вы можете ознакомиться с моим резюме">
     <meta name="keywords" content="Резюме, Alar1us, работа">
     <title>Резюме</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <img src="hehe.jpg" alt="Мое фото" width="200">
-    <h1>Александр</h1>
+<body class="info-text">
+    <div class="container">
+        <div class="info">
 
-    <p>Мне 25 лет. Я начал заниматься в IT, чтобы обеспечить лучшую жизнь. Сейчас я в самом начале пути и надеюсь, <strong>что никакие трудности не остановят меня!</strong></p>
-    <p>Сегодня я приступил к <em>активному изучению</em> <strong>html и css</strong>.</p>
+        <img src="hehe.jpg" alt="Мое фото" class="cat">
 
-    <h3>Мои хобби</h3>
-    <p><ul>
-        <li>Играть в видеоигры</li>
-        <li>Читать</li>
-        <li>Заниматься спортом</li>
-        <li>Готовить</li>
-        <li>Какать</li>
-    </ul></p>
+        <div>
+        <h1 class="name">Александр</h1>
+        
+        <p>Мне 25 лет. Я начал заниматься IT, чтобы обеспечить лучшую жизнь. Сейчас я в самом начале пути и надеюсь, <strong>что никакие трудности не остановят меня!</strong></p>
+        <p>Сегодня я приступил к <em>активному изучению</em> <strong>html и css</strong>.</p>
 
-    <h3>Опыт работы</h3>
-    <table width="450">
-        <thead>
-            <tr>
-                <th>Место работы</th>
-                <th>Должность</th>
-                <th>Год</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>СЗПК ОАО ЭЛТЕЗА</td>
-                <td>Укладчик-упаковщик</td>
-                <td>2019-2025</td>
-            </tr>
-            <tr>
-                <td>Сатурн строймаркет</td>
-                <td>Кладовщик-сборщик</td>
-                <td>2025-по н.вр.</td>
-            </tr>
-        </tbody>
-    </table>
-
-    <h4>Мои соц. сети:</h4>
-    <a href="https://vk.com/idgodzzz" target="_blank"><strong>VK</strong></a> |
+         <h4>Список социальных сетей:</h4>
+        <div class="social btn">
+            <a href="https://vk.com/idgodzzz" target="_blank" class="link vk"><strong>VK</strong></a> 
+            
+            <a href="https://t.me/Alar1us" target="_blank" class="link tg"><strong>Telegramm</strong></a> 
+            <a href="https://www.twitch.tv/alar1us" target="_blank" class="link tw"><strong>Twitch</strong></a>
+        </div>
     
-    <a href="https://t.me/Alar1us" target="_blank"><strong>Telegramm</strong></a> |
-    <a href="https://www.twitch.tv/alar1us" target="_blank"><strong>twitch</strong></a>
+        </div>
 
-    <h2>Связаться со мной</h2>
+        </div>
+            
+       
 
-    <div>
-        <label for="text">Ваше имя:</label>
-        <input type="text" id="text" placeholder="Введите имя">
+        <div class="card-1">
+            <h2>Мои хобби</h2>
+            <p><ul>
+                <li>Играть в видеоигры</li>
+                <li>Читать</li>
+                <li>Заниматься спортом</li>
+                <li>Готовить</li>
+                <li>Кодить</li>
+            </ul></p>
+        </div>
+
+        <div class="card-2">
+            <h2>Опыт работы</h2>
+            <table class="expwork">
+                <thead>
+                    <tr>
+                        <th>Место работы</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>СЗПК ОАО ЭЛТЕЗА</td>
+                        <td>Укладчик-упаковщик</td>
+                        <td>2019-2025</td>
+                    </tr>
+                    <tr>
+                        <td>Сатурн строймаркет</td>
+                        <td>Кладовщик-сборщик</td>
+                        <td>2025-по н.вр.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+
+            <form action="" class="form">
+                <h2>Связаться со мной</h2>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="text">Ваше имя:</label>
+                        <input type="text" id="text" placeholder="Введите имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш Email:</label>
+                        <input type="email" id="email" placeholder="Введите email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Ваше сообщение</label>
+                    <textarea name="message" cols="25" rows="5" id="message" placeholder="Введите сообщение..."></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn2"><strong>Отправить</strong></button>
+                </div>
+            </form>
+
+        <hr>
     </div>
-    <div>
-        <label for="email">Ваш Email:</label>
-        <input type="email" id="email" placeholder="Введите email">
-    </div>
-    <div>
-        <label for="message">Ваше сообщение</label>
-        <br>
-        <textarea name="message" cols="25" rows="5" id="message" placeholder="Введите сообщение..."></textarea>
-    </div>
-
-    <hr>
-    
-
 </body>
 </html>
