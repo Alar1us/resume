@@ -8,6 +8,11 @@ body {
   background-color: #DCDCDC;
 }
 
+.info-text {
+    margin-bottom: 20px;
+}
+
+
 
 .name {
     margin: 10px;
